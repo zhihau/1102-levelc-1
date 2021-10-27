@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+}
+
+/* main */
+
+.main {
+    width: 1024px;
+    height: 768px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    padding: 0 12px;
+    color: blue;
+}
+
+body>*:not(aside, section), aside>*, section>* {
+    border: solid 1px darkgray;
+}
+
+/* top */
+
+.top {
+    width: 1000px;
+    height: 65px;
+    color: blue;
+}
+
+/* aside */
+
+.aside {
+    width: 215px;
+    height: calc( 768px - 65px - 20px);
+    color: blue;
+}
+
+/* aside menu */
+
+.menu {
+   
+    height: calc(100% - 25px);
+    color: blue;
+    font-family: "標楷體";
+    font-size: 500;
+color:#000000;
+font-size: 16px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.menu-header{
+    font-size: 24px;
+    text-decoration: underline;
+    text-align: center;
+    color:#ff00ff;
+}
+.menu-items>a{
+display: inline-block;
+width: 200px;
+height: 35px;
+line-height: 35px;
+text-align: center;
+text-decoration: none;
+    background-image: url("../images/menu1.png");
+}
+.menu-items>a:hover{
+    background-image: url("../images/menu2.png");
+}
+#my-id{
+    text-decoration: underline;
+}
+
+/* aside menu */
+
+.update {
+    height: 25px;
+    font-family: "標楷體";
+    color:#000000;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+/* sectioin */
+
+.section {
+    width: calc(1000px - 215px);
+    height: calc(768px - 65px - 20px);
+    color: blue;
+}
+
+/* section marquee */
+
+.marquee {
+    height: 29px;
+    color: #0000ff;
+    font-family: "標楷體";
+    font-size: 24px;
+
+}
+
+/* section content */
+
+.content {
+    height: calc(100% - 29px);
+    color: blue;
+}
+
+.footer {
+    width:100%;
+    height: 20px;
+    color: blue;
+}
