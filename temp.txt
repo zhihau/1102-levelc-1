@@ -1,12 +1,12 @@
 main
-    top
-    aside
-    menu
-    update
-    section
-    marquee
-    content
-    footer
+top
+aside
+menu
+update
+section
+marquee
+content
+footer
 
     吉他社
 熱舞社

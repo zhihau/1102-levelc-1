@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: "標楷體";
+    overflow: hidden;
+    /* https://www.w3schools.com/css/css_overflow.asp */
+}
+.main{
+    /*  */
+    width:1024px;
+    height: 768px;
+    color:blue;
+}
+body>*,.aside>*,.section>*{
+border:1px solid darkgray;
+}
+.top{
+    color:blue;
+}
+.aside{
+    color:blue;
+}
+.menu{
+    color:blue;
+}
+.update{
+    color:blue;
+}
+.section{
+    color:blue;
+}
+.marquee{
+    color:blue;
+}
+.content{
+    color:blue;
+}
+.footer{
+    color:blue;
+}
