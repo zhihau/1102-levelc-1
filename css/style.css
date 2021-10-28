@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
+    font-family: '標楷體';
     overflow: hidden;
-    margin: 0;
+    /* margin: 0; */
 }
 
 /* main */
@@ -13,7 +14,9 @@
     flex-wrap: wrap;
     margin: 10px auto;
     padding: 0 12px;
-    color: blue;
+    text-align: center;
+    /* justify-content: center; */
+    /* color: blue; */
 }
 
 body>*:not(aside, section), aside>*, section>* {
@@ -25,50 +28,54 @@ body>*:not(aside, section), aside>*, section>* {
 .top {
     width: 1000px;
     height: 65px;
-    color: blue;
+    /* color: blue; */
 }
 
 /* aside */
 
 .aside {
     width: 215px;
-    height: calc( 768px - 65px - 20px);
-    color: blue;
+    height: calc( 100% - 65px - 20px);
+    /* color: blue;
+    display: flex;
+    flex-direction: column; */
 }
 
 /* aside menu */
 
 .menu {
-   
     height: calc(100% - 25px);
-    color: blue;
+    /* color: blue;
     font-family: "標楷體";
     font-size: 500;
-color:#000000;
-font-size: 16px;
-display: flex;
-flex-direction: column;
-align-items: center;
+    color: #000000;
+    font-size: 16px; */
+    
 }
-.menu-header{
+
+.menu-header {
     font-size: 24px;
     text-decoration: underline;
-    text-align: center;
-    color:#ff00ff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #ff00ff;
 }
-.menu-items>a{
-display: inline-block;
-width: 200px;
-height: 35px;
-line-height: 35px;
-text-align: center;
-text-decoration: none;
+
+.menu>a {color:#000000;
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    
+    text-decoration: none;
     background-image: url("../images/menu1.png");
 }
-.menu-items>a:hover{
+
+.menu>a:hover {
     background-image: url("../images/menu2.png");
 }
-#my-id{
+
+#my-id {
     text-decoration: underline;
 }
 
@@ -77,39 +84,42 @@ text-decoration: none;
 .update {
     height: 25px;
     font-family: "標楷體";
-    color:#000000;
-    text-align: center;
-    font-size: 16px;
+    color: #000000;
     
+    font-size: 16px;
 }
 
 /* sectioin */
 
 .section {
     width: calc(1000px - 215px);
-    height: calc(768px - 65px - 20px);
-    color: blue;
+    /* height: calc(768px - 65px - 20px); */
+    /* color: blue; */
+    /* display: flex;
+    flex-flow: column nowrap; */
 }
 
 /* section marquee */
 
 .marquee {
     height: 29px;
+    padding: 0 calc((100% - 770px -2px) /2);
+
     color: #0000ff;
     font-family: "標楷體";
     font-size: 24px;
-
 }
 
 /* section content */
 
 .content {
     height: calc(100% - 29px);
-    color: blue;
+    padding: 0 calc((100% - 770px -2px) /2);
+    /* color: blue; */
 }
 
 .footer {
-    width:100%;
+    width: 100%;
     height: 20px;
-    color: blue;
+    /* color: blue; */
 }

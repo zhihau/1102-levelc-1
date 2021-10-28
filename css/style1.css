@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: "標楷體";
+    overflow: hidden;
+}
+
+.main {
+    width: 1024px;
+    height: 768px;
+    margin:10px auto;
+    padding: 0 12px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+body>*:not(aside,section),aside>*,section>*{
+    border: 1px solid darkgray;
+}
+
+.top {
+    width: 1000px;
+    height: 65px;
+}
+
+.aside {
+    width: 215px;
+    height: calc(100% - 65px - 20px);
+}
+
+.menu {
+    height: calc(100% - 25px);
+    font-size: 500;
+    color:#000000;
+    font-size: 16px;
+
+}
+
+.menu-header{
+font-size: 24px;
+text-decoration: underline;
+color:#ff00ff;
+}
+.menu>a{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    background-image: url("../images/menu1.png");
+}
+.menu>a:hover{
+    background-image: url("../images/menu2.png");
+}
+#my-id{
+    text-decoration: underline;
+}
+
+.update {
+    height: 25px;
+    font-size: 16px;
+}
+
+.section {
+    width: calc(1000px - 215px);
+    /* height: calc(100% - 65px - 20px); */
+}
+
+.marquee {
+    height: 29px;
+    font-size: 24px;
+    padding: 0 calc((100% - 770px - 2px)/2);
+    color:#0000ff;
+}
+
+.content {
+    height: calc(100% - 29px);
+    padding: 0 calc((100% - 770px - 2px)/2);
+}
+
+.footer {
+    width: 1000px;
+    height: 20px;
+}
