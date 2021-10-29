@@ -1,23 +1,25 @@
 *{
+    /* 設定整份文件的所有元件都在其長寬的限制內 */
     box-sizing: border-box;
+    /* 設定整份文件的字型為標楷體 */
     font-family: "標楷體";
-    overflow: hidden;
+    
+    overflow: hidden; 
     /* https://www.w3schools.com/css/css_overflow.asp */
 }
 .main{
-    /*  */
-    width:1024px;
-    height: 768px;
-    color:blue;
+    /* width:1024px;
+    height: 768px; */
+    color:red;
 }
-body>*,.aside>*,.section>*{
+/* body>*,aside>*,section>*{
 border:1px solid darkgray;
-}
+} */
 .top{
     color:blue;
 }
 .aside{
-    color:blue;
+    color:red;
 }
 .menu{
     color:blue;
@@ -26,7 +28,7 @@ border:1px solid darkgray;
     color:blue;
 }
 .section{
-    color:blue;
+    color:red;
 }
 .marquee{
     color:blue;
