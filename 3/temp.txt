@@ -1,0 +1,9 @@
+main
+top
+aside
+menu
+update
+section
+marquee
+content
+footer
