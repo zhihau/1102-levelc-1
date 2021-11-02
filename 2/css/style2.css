@@ -18,6 +18,7 @@
     /* 呈現水平置中效果 */
     margin:20px auto;
     padding:0 12px;
+    text-align: center;
 }
 
 body>*:not(aside,section),aside>*,section>*{
@@ -39,13 +40,38 @@ body>*:not(aside,section),aside>*,section>*{
 .menu {
     width: 100%;
     height: calc(100% - 25px);
+font-weight: 500;
+
     color: blue;
 }
+.menu-header{
+    font-size: 24x;
+    text-decoration: underline;
+    color:#ff00ff;
+}
+.menu>a{
+    color:#000000;
+    font-size: 16px;
+    text-decoration: none;
+    background-image: url("../images/menu1.png");
+    width: 200px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
 
+
+}
+.main>a:hover{
+    background-image: url("../images/menu2.png");
+}
+#link_guitar{
+    text-decoration: underline;
+}
 .update {
     width: 100%;
     height: 25px;
-    color: blue;
+    color: #000000;
+    font-size: 16px;
 }
 
 .section {
@@ -57,7 +83,8 @@ body>*:not(aside,section),aside>*,section>*{
 .marquee {
     width: 100%;
     height: 29px;
-    color: blue;
+    font-size: 24px;
+    color: #0000ff;
 }
 
 .content {
@@ -69,5 +96,6 @@ body>*:not(aside,section),aside>*,section>*{
 .footer {
     width: 1000px;
     height: 20px;
-    color: blue;
+    color:#000000;
+    font-size: 16px;
 }
